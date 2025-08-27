@@ -13,8 +13,7 @@ Utilizar variáveis de ambiente para controlar dados entre requests 🛠️
 
 Postman instalado (Desktop ou Web)
 
-Conta gratuita no MockAPI <img width="1343" height="633" alt="image" src="https://github.com/user-attachments/assets/77410cce-2f7b-48ab-bfc2-a2884bef4c7a" />
-
+Conta gratuita no [MockAPI]([url](https://mockapi.io/)) 
 
 Conhecimento básico de HTTP e APIs REST
 
