@@ -31,6 +31,7 @@ Este projeto é uma simulação de e-commerce, criado com o objetivo de aprender
 💡 Observação: O **productId** é atualizado automaticamente após criar um produto e é utilizado nos requests de **GET** específico, **PUT** e **DELETE**.
 
 📦 **Requests e Testes**
+
 1️⃣ **POST** - Criar um produto
 
 •Objetivo: Criar um novo produto na API
