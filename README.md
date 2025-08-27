@@ -15,16 +15,104 @@ Postman instalado (Desktop ou Web)
 
 Conta gratuita no [MockAPI](https://mockapi.io/)
 
+API:
+<img width="1294" height="337" alt="image" src="https://github.com/user-attachments/assets/c71feea4-ad16-4078-9ba6-09356ce690b4" />
+
+<img width="678" height="523" alt="image" src="https://github.com/user-attachments/assets/e9e2c76c-c135-4a07-9718-5cb6738ccc3b" />
+
+
 Conhecimento básico de HTTP e APIs REST
 
 🌐 Variáveis de Ambiente
 
 O projeto utiliza um Environment no Postman para armazenar variáveis importantes:
-
-Variável	Finalidade	Initial Value	Current Value
-baseUrl	URL base da API	https://SEU_MOCKAPI_URL/api/v1	https://SEU_MOCKAPI_URL/api/v1
-productId	Armazena o ID do produto criado	(vazio)	(vazio)
-updatedName	Nome do produto atualizado	Ex: Produto Teste Atualizado	Ex: Produto Teste Atualizado
-updatedPrice	Preço do produto atualizado	Ex: 100	Ex: 100
+<img width="1359" height="718" alt="image" src="https://github.com/user-attachments/assets/12442763-aaa1-4008-aebe-6fa7647b2a53" />
 
 💡 Observação: O productId é atualizado automaticamente após criar um produto e é utilizado nos requests de GET específico, PUT e DELETE.
+
+📦 Requests e Testes
+1️⃣ POST - Criar um produto
+
+Objetivo: Criar um novo produto na API
+
+Body (JSON):
+<img width="725" height="238" alt="image" src="https://github.com/user-attachments/assets/e2ee97cd-33ea-47a9-accd-4bfe29c87633" />
+
+Testes automatizados:
+<img width="639" height="392" alt="image" src="https://github.com/user-attachments/assets/41d07108-5cf6-4d1c-896a-3910a003d414" />
+
+GET - Listar todos os produtos
+
+Objetivo: Recuperar todos os produtos
+
+Body: Nenhum
+
+Testes automatizados:
+<img width="913" height="401" alt="image" src="https://github.com/user-attachments/assets/9cf0f598-01ef-4989-b2e9-833a7cf9d68a" />
+
+GET - Pegar um produto específico
+
+Objetivo: Recuperar detalhes de um produto pelo ID
+
+URL: {{baseUrl}}/products/{{productId}}
+
+Body: Nenhum
+
+Testes automatizados:
+<img width="923" height="380" alt="image" src="https://github.com/user-attachments/assets/5493cf7c-26ae-4456-9a33-f80ae0eb0a2e" />
+
+PUT - Atualizar um produto
+
+Objetivo: Atualizar dados de um produto existente
+
+URL: {{baseUrl}}/products/{{productId}}
+
+Body (JSON):
+<img width="914" height="346" alt="image" src="https://github.com/user-attachments/assets/31d1548a-49b5-454f-9221-131f96b64e38" />
+
+Testes automatizados:
+<img width="921" height="405" alt="image" src="https://github.com/user-attachments/assets/c3014e63-3238-4fde-88f1-231c29d6e84e" />
+
+DELETE - Deletar um produto
+
+Objetivo: Remover um produto existente pelo ID
+
+URL: {{baseUrl}}/products/{{productId}}
+
+Body: Nenhum
+
+Testes automatizados:
+<img width="914" height="368" alt="image" src="https://github.com/user-attachments/assets/6c1baba2-7bab-4cdb-a909-b82850e967aa" />
+
+Fluxo do Projeto
+
+Criar um produto → POST
+
+Listar todos os produtos → GET
+
+Pegar um produto específico → GET
+
+Atualizar o produto → PUT
+
+Deletar o produto → DELETE
+
+Resultado: 
+<img width="923" height="428" alt="image" src="https://github.com/user-attachments/assets/f505d5eb-7f9c-486b-8d52-d7498a3856a4" />
+
+📝 Observações
+
+Todas as requests usam a {{baseUrl}} como variável de ambiente
+
+O productId é atualizado automaticamente
+
+GET e DELETE não precisam de body
+
+Este projeto serve como portfólio de QA, mostrando habilidades de testes de API automatizados
+
+
+
+
+
+
+
+
