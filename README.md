@@ -17,4 +17,14 @@ Conta gratuita no [MockAPI](https://mockapi.io/)
 
 Conhecimento básico de HTTP e APIs REST
 
+🌐 Variáveis de Ambiente
 
+O projeto utiliza um Environment no Postman para armazenar variáveis importantes:
+
+Variável	Finalidade	Initial Value	Current Value
+baseUrl	URL base da API	https://SEU_MOCKAPI_URL/api/v1	https://SEU_MOCKAPI_URL/api/v1
+productId	Armazena o ID do produto criado	(vazio)	(vazio)
+updatedName	Nome do produto atualizado	Ex: Produto Teste Atualizado	Ex: Produto Teste Atualizado
+updatedPrice	Preço do produto atualizado	Ex: 100	Ex: 100
+
+💡 Observação: O productId é atualizado automaticamente após criar um produto e é utilizado nos requests de GET específico, PUT e DELETE.
