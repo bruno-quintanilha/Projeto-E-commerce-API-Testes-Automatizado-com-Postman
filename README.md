@@ -1,7 +1,7 @@
 # Projeto-E-commerce-API-Testes-Automatizado-com-Postman
 Este projeto é uma simulação de e-commerce, criado com o objetivo de aprender testes automatizados de APIs REST usando o Postman. O foco é testar o fluxo CRUD (Create, Read, Update, Delete) de produtos, garantindo que a API responda corretamente a cada operação. Este projeto não é um e-commerce real, mas um teste para desenvolver habilidades de QA.
 
-🎯 Objetivo
+🎯 **Objetivo**
 
 •Criar, listar, atualizar, pegar e deletar produtos via API 📝
 
@@ -9,7 +9,7 @@ Este projeto é uma simulação de e-commerce, criado com o objetivo de aprender
 
 •Utilizar variáveis de ambiente para controlar dados entre requests 🛠️
 
-⚙️ Pré-requisitos
+⚙️ **Pré-requisitos**
 
 •Postman instalado (Desktop ou Web)
 
@@ -23,15 +23,15 @@ Este projeto é uma simulação de e-commerce, criado com o objetivo de aprender
 <img width="678" height="523" alt="image" src="https://github.com/user-attachments/assets/e9e2c76c-c135-4a07-9718-5cb6738ccc3b" />
 
 
-🌐 Variáveis de Ambiente
+🌐 **Variáveis de Ambiente**
 
 •O projeto utiliza um Environment no Postman para armazenar variáveis importantes:
 <img width="1359" height="718" alt="image" src="https://github.com/user-attachments/assets/12442763-aaa1-4008-aebe-6fa7647b2a53" />
 
-💡 Observação: O productId é atualizado automaticamente após criar um produto e é utilizado nos requests de GET específico, PUT e DELETE.
+💡 Observação: O **productId** é atualizado automaticamente após criar um produto e é utilizado nos requests de **GET** específico, **PUT** e **DELETE**.
 
-📦 Requests e Testes
-1️⃣ POST - Criar um produto
+📦 **Requests e Testes**
+1️⃣ **POST** - Criar um produto
 
 •Objetivo: Criar um novo produto na API
 
@@ -43,7 +43,7 @@ Este projeto é uma simulação de e-commerce, criado com o objetivo de aprender
 •Testes automatizados:
 <img width="639" height="392" alt="image" src="https://github.com/user-attachments/assets/41d07108-5cf6-4d1c-896a-3910a003d414" />
 
-2️⃣ GET - Listar todos os produtos
+2️⃣ **GET** - Listar todos os produtos
 
 •Objetivo: Recuperar todos os produtos
 
@@ -54,7 +54,7 @@ Este projeto é uma simulação de e-commerce, criado com o objetivo de aprender
 •Testes automatizados:
 <img width="913" height="401" alt="image" src="https://github.com/user-attachments/assets/9cf0f598-01ef-4989-b2e9-833a7cf9d68a" />
 
-3️⃣ GET - Pegar um produto específico
+3️⃣ **GET** - Pegar um produto específico
 
 •Objetivo: Recuperar detalhes de um produto pelo ID
 
@@ -65,7 +65,7 @@ Este projeto é uma simulação de e-commerce, criado com o objetivo de aprender
 Testes automatizados:
 <img width="923" height="380" alt="image" src="https://github.com/user-attachments/assets/5493cf7c-26ae-4456-9a33-f80ae0eb0a2e" />
 
-4️⃣ PUT - Atualizar um produto
+4️⃣ **PUT** - Atualizar um produto
 
 •Objetivo: Atualizar dados de um produto existente
 
@@ -77,7 +77,7 @@ Testes automatizados:
 •Testes automatizados:
 <img width="921" height="405" alt="image" src="https://github.com/user-attachments/assets/c3014e63-3238-4fde-88f1-231c29d6e84e" />
 
-5️⃣ DELETE - Deletar um produto
+5️⃣ **DELETE** - Deletar um produto
 
 •Objetivo: Remover um produto existente pelo ID
 
@@ -88,7 +88,7 @@ Testes automatizados:
 •Testes automatizados:
 <img width="914" height="368" alt="image" src="https://github.com/user-attachments/assets/6c1baba2-7bab-4cdb-a909-b82850e967aa" />
 
-🔄 Fluxo do Projeto
+🔄 **Fluxo do Projeto**
 
 •Criar um produto → POST
 
@@ -103,7 +103,7 @@ Testes automatizados:
 •Resultado: 
 <img width="923" height="428" alt="image" src="https://github.com/user-attachments/assets/f505d5eb-7f9c-486b-8d52-d7498a3856a4" />
 
-📝 Observações
+📝 **Observações**
 
 •Todas as requests usam a {{baseUrl}} como variável de ambiente
 
